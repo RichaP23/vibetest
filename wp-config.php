@@ -36,7 +36,6 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
-define('FS_METHOD', 'direct');
 
 /**#@+
  * Authentication unique keys and salts.
@@ -49,14 +48,14 @@ define('FS_METHOD', 'direct');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '<sP;:/FY<H+`f@}s.?n{7_~w#Z;buzt|9eDm^N--<=dI][H}9n.#<>YWe(RGq{.$' );
-define( 'SECURE_AUTH_KEY',  'LrGXjt{zDE#z=1>(Z+t7chgQ9Q@ft?&Qf/ai{vz9,*s [4^LE450v|S; !9$+g)o' );
-define( 'LOGGED_IN_KEY',    'jKfUY?s*`~h}Q%QD/R3p3j.V99  BM?/Og&MVg3k(:c3swagN?CLY%4c<]cqf2Ak' );
-define( 'NONCE_KEY',        '_oF63v(|RSWF:AgU2-S5eZ_zZ4?*D82AR3Y^J|Ix$6M/rV5;%gX=OYFLI2EiP%o7' );
-define( 'AUTH_SALT',        'sSwvP;^D&&;*g-7+uz/BFm1uH_6g>vnT.[RRp^R{l4@:68-mS:t@,DNai0KGIVmB' );
-define( 'SECURE_AUTH_SALT', 'g9&K`c0*Gt0|Xe8Opmb^u3($II>wUWal,<V_ulE<m~f+=//rAz49t(]WIZ{w1JLp' );
-define( 'LOGGED_IN_SALT',   'mLo6,@|^2z<L42-NH1vTB,C1e9BXmp*d5%R!`n6y1/>/mL|(CGeoz)u-NN.hd36z' );
-define( 'NONCE_SALT',       'vQ5AZzT%0FfsaVU4)z%mH`l5S$>d5WDnbd:J#7!Kl~2Tdkl%XA7GtnGf@=WTYkVr' );
+define( 'AUTH_KEY',         'xhjEpK`j]+f.zqW#aFPo]7E^*@&]j,TS{+e1UaH;2@8X25I|jh)nQF&/3w;yb?8$' );
+define( 'SECURE_AUTH_KEY',  ']rzea!J&)<29O_e[PlYIA0d8|1liZpf+n:l4P5&UAU#YG)yrS29B@[fDe]s^U8a=' );
+define( 'LOGGED_IN_KEY',    'EkWR-&zv>8R>S}$c^3$ Uvto-c+[V@/kxDrXxZs{ln357sZBmT=1;_/2LCr;jGXf' );
+define( 'NONCE_KEY',        '506@pN4a(Gy*nLFY^SvRT7S0M4WW#d:o<in{Oc{>}V&)`UX?9D_JG<f,nr>vo?IM' );
+define( 'AUTH_SALT',        'HE+29_1/Vs33VK[UQ65-GR|kH^YBH1p&qhczD9r+/1>U<V<_1O_k~>`Nkx|P^hdf' );
+define( 'SECURE_AUTH_SALT', 'O}On0?6c]Q:>`ru+ss)ze4D`uVii>|*d.I7#$s-z<VJ^NVrv/VwkC*7+pYw-19W1' );
+define( 'LOGGED_IN_SALT',   ';QxgG!x>_Co^H}wi*S20g>Mffh-LvhnRBmFWY+6v8$g)EYaQO;[+;#TyD?z}~^;Y' );
+define( 'NONCE_SALT',       '7S)Y`>,z[A5<nTk^9:-8%mjXa_4?}|2sSOMOYljJ,vo@K<0.pY%`}E7(KKa%AZsI' );
 
 /**#@-*/
 
@@ -95,3 +94,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
